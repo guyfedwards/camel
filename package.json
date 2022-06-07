@@ -3,5 +3,15 @@
   "version": "0.0.1",
   "description": "Gitlab CI yaml generator",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "yaml": "^2.1.0"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
 }
